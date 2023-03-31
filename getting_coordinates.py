@@ -24,7 +24,6 @@ while True:
 
 
 
-
     cv2.imshow("harvis",frame)
     cv2.waitKey(1)
 
