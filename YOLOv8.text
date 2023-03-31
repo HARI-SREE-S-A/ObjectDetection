@@ -12,3 +12,27 @@ ultralytics
 # running the training part 
 yolo task=detect mode=train epochs=100 data=data_custom.yaml model=yolov8m.pt im
 gsz=640
+
+
+
+
+
+
+
+YOLOv8 is a real-time object detection system that uses deep neural networks. It is an improvement over the previous versions of YOLO, and it can detect objects with high accuracy while also being faster than its predecessors.
+
+To train a custom YOLOv8 model for object detection, you would need to follow these steps:
+
+Prepare the dataset: The first step is to prepare the dataset of images and corresponding annotations. The dataset should include images of the objects you want to detect, along with bounding box annotations that indicate the location of the objects in the image.
+
+Define the model architecture: Next, you need to define the architecture of your YOLOv8 model. You can modify the architecture by changing the number of layers, the size of the filters, and other parameters to fit your specific needs.
+
+Train the model: After defining the model architecture, you can begin training the model using the prepared dataset. You can use a tool such as Darknet, which is an open-source neural network framework, to train the model.
+
+Evaluate the model: Once the model is trained, you can evaluate its performance on a separate set of images. You can use metrics such as precision, recall, and F1-score to evaluate the model's performance.
+
+Fine-tune the model: If the model's performance is not satisfactory, you can fine-tune it by adjusting the hyperparameters or using transfer learning to refine the model.
+
+Deploy the model: Once the model is trained and fine-tuned, you can deploy it to your application or device for object detection.
+
+Keep in mind that training a YOLOv8 model can be a complex and computationally intensive task, so it's important to have access to powerful hardware and enough computing resources to complete the training process efficiently.
