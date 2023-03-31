@@ -1,0 +1,7 @@
+train: C:\Users\194430\Documents\DSA practice\Image_detection_experimanets\train
+val: C:\Users\194430\Documents\DSA practice\Image_detection_experimanets\val
+
+nc: 2
+
+
+names: ["mobile","broken"]
