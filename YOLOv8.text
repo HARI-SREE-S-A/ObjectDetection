@@ -4,7 +4,6 @@
  
  # labelImg library can be used to create the label and datasets from an image dataset 
  
- 
  labelImg
  
  # ultralytics can be used to install all necessary toolkits and libraries used for the training
