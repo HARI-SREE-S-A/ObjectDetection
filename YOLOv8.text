@@ -6,6 +6,7 @@
  
  labelImg
  
+ 
  # ultralytics can be used to install all necessary toolkits and libraries used for the training
 ultralytics
 
