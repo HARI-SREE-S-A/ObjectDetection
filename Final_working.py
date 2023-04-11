@@ -1,6 +1,7 @@
 from ultralytics import YOLO
 
 
+
 model = YOLO("yolov8m_custom.pt") #same root directry
 
 
