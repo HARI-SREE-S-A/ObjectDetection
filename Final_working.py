@@ -1,4 +1,4 @@
-rom ultralytics import YOLO
+from ultralytics import YOLO
 
 
 model = YOLO("yolov8m_custom.pt")
