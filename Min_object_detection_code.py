@@ -22,7 +22,7 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT,720)
 while True:
     ## getting the frame
     success,frame = cap.read()
-    ## object detection
+    // object detection
 
     (class_ids,scores,bboxs) = model.detect(frame)
     for class_id,score,bbox in zip(class_ids,scores,bboxs):
